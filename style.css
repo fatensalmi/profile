@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Nunito:300,400,700&display=swap');
+
+img {
+  width: 100px;
+  border-radius:4px;
+  margin: 10px auto;
+}
+
+body {
+  background-color:  #E6EBE0;
+  font-family: 'Nunito', sans-serif;
+  color:#5D576B;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+
+h1 {
+  font-size: 28px;
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  font-family:'Montserrat', sans-serif;
+}
+
+
+a {
+  color: #6C91C2;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#2E3532;
+}
+
+.container {
+  width: 400px;
+  margin : 20px auto;
+  padding: 100px;
+  /*margin: 20px 200px;*/
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.photo {
+  text-align: center;
+}
+
+.presentation {
+  text-align: justify;
+}
+
+
+.list ul > li {
+  display: inline-block;
+  padding: 0px 0px 20px 5px;
+
+}
+
+.list ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+   .bloc-bas {
+    padding: 20px;
+  }
+}
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 3px;
+  }
+  .bloc-bas {
+    padding: 20px;
+  }
+}
